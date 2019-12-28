@@ -1,113 +1,113 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="유틸">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="메인">
+    <Filter Include="main">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="메인\프로젝트">
-      <UniqueIdentifier>{57a95ac0-640f-4bf0-80a8-4b0798feb277}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="메인\공장">
-      <UniqueIdentifier>{20572714-2c92-41ec-9f75-ac397af5c411}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="메인\객체">
+    <Filter Include="main\objects">
       <UniqueIdentifier>{9ae71206-6304-44cc-b38d-51a675d030d5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="메인\객체\이미지">
-      <UniqueIdentifier>{4757ba76-114f-49c7-bdfd-7a44e5c58e4a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="메인\객체\소리">
+    <Filter Include="main\objects\sound">
       <UniqueIdentifier>{999619e2-b34e-4ac6-9c87-b71fe17af34a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="메인\공장\소리">
-      <UniqueIdentifier>{7250dec7-8d72-46c5-b4de-3ed75fcb72b8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="메인\공장\이미지">
-      <UniqueIdentifier>{bef077ad-d0ae-4c5c-99ab-c8550c48b49c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="메인\객체\소리\유니티">
+    <Filter Include="main\objects\sound\유니티">
       <UniqueIdentifier>{6db640b1-3e12-4206-87e1-73a52eb732ff}</UniqueIdentifier>
     </Filter>
-    <Filter Include="메인\객체\이미지\유니티">
+    <Filter Include="main\objects\sound\다렉">
+      <UniqueIdentifier>{aab4bde9-3106-43a4-9a2d-6bb0be735cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\objects\image">
+      <UniqueIdentifier>{4757ba76-114f-49c7-bdfd-7a44e5c58e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\objects\image\유니티">
       <UniqueIdentifier>{d8ee9a43-86d3-4970-b916-8c61409f5588}</UniqueIdentifier>
     </Filter>
-    <Filter Include="메인\객체\이미지\다렉">
+    <Filter Include="main\objects\image\다렉">
       <UniqueIdentifier>{0e0003bd-2cda-4667-852d-6b214c519500}</UniqueIdentifier>
     </Filter>
-    <Filter Include="메인\객체\소리\다렉">
-      <UniqueIdentifier>{aab4bde9-3106-43a4-9a2d-6bb0be735cc7}</UniqueIdentifier>
+    <Filter Include="main\factory">
+      <UniqueIdentifier>{20572714-2c92-41ec-9f75-ac397af5c411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\project">
+      <UniqueIdentifier>{57a95ac0-640f-4bf0-80a8-4b0798feb277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="main\factory\sound">
+      <UniqueIdentifier>{7250dec7-8d72-46c5-b4de-3ed75fcb72b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\factory\image">
+      <UniqueIdentifier>{bef077ad-d0ae-4c5c-99ab-c8550c48b49c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
-      <Filter>유틸</Filter>
+      <Filter>util</Filter>
     </ClInclude>
     <ClInclude Include="cProject.h">
-      <Filter>메인\프로젝트</Filter>
+      <Filter>main\project</Filter>
     </ClInclude>
     <ClInclude Include="cSound.h">
-      <Filter>메인\객체\소리</Filter>
+      <Filter>main\objects\sound</Filter>
     </ClInclude>
     <ClInclude Include="cImage.h">
-      <Filter>메인\객체\이미지</Filter>
+      <Filter>main\objects\image</Filter>
     </ClInclude>
     <ClInclude Include="cSoundFactory.h">
-      <Filter>메인\공장\소리</Filter>
+      <Filter>main\factory\sound</Filter>
     </ClInclude>
     <ClInclude Include="cDXSound.h">
-      <Filter>메인\객체\소리\다렉</Filter>
+      <Filter>main\objects\sound\다렉</Filter>
     </ClInclude>
     <ClInclude Include="cUNITYSound.h">
-      <Filter>메인\객체\소리\유니티</Filter>
+      <Filter>main\objects\sound\유니티</Filter>
     </ClInclude>
     <ClInclude Include="cImageFactory.h">
-      <Filter>메인\공장\이미지</Filter>
+      <Filter>main\factory\image</Filter>
     </ClInclude>
     <ClInclude Include="cDXImage.h">
-      <Filter>메인\객체\이미지\다렉</Filter>
+      <Filter>main\objects\image\다렉</Filter>
     </ClInclude>
     <ClInclude Include="cUNITYImage.h">
-      <Filter>메인\객체\이미지\유니티</Filter>
+      <Filter>main\objects\image\유니티</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>메인</Filter>
+      <Filter>main</Filter>
     </ClCompile>
     <ClCompile Include="cProject.cpp">
-      <Filter>메인\프로젝트</Filter>
+      <Filter>main\project</Filter>
     </ClCompile>
     <ClCompile Include="cSound.cpp">
-      <Filter>메인\객체\소리</Filter>
+      <Filter>main\objects\sound</Filter>
     </ClCompile>
     <ClCompile Include="cImage.cpp">
-      <Filter>메인\객체\이미지</Filter>
+      <Filter>main\objects\image</Filter>
     </ClCompile>
     <ClCompile Include="cSoundFactory.cpp">
-      <Filter>메인\공장\소리</Filter>
+      <Filter>main\factory\sound</Filter>
     </ClCompile>
     <ClCompile Include="cDXSound.cpp">
-      <Filter>메인\객체\소리\다렉</Filter>
+      <Filter>main\objects\sound\다렉</Filter>
     </ClCompile>
     <ClCompile Include="cUNITYSound.cpp">
-      <Filter>메인\객체\소리\유니티</Filter>
+      <Filter>main\objects\sound\유니티</Filter>
     </ClCompile>
     <ClCompile Include="cImageFactory.cpp">
-      <Filter>메인\공장\이미지</Filter>
+      <Filter>main\factory\image</Filter>
     </ClCompile>
     <ClCompile Include="cDXImage.cpp">
-      <Filter>메인\객체\이미지\다렉</Filter>
+      <Filter>main\objects\image\다렉</Filter>
     </ClCompile>
     <ClCompile Include="cUNITYImage.cpp">
-      <Filter>메인\객체\이미지\유니티</Filter>
+      <Filter>main\objects\image\유니티</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
-      <Filter>유틸</Filter>
+      <Filter>util</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
