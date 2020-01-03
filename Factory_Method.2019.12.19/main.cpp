@@ -1,6 +1,10 @@
 ﻿#include "pch.h"
 #include "cProject.h"
 
+//팩토리 메소드 패턴:
+//추상화된 클래스는 어떤 객체를 만들지 정보만 받고
+//정보에 따라서 하위 클래스에게 생성을 맡김
+
 int main() {
 	string name[3] = { "NULL", "DirectX", "UNITY" };
 	cProject proj;

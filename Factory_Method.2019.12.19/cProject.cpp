@@ -33,10 +33,6 @@ void cProject::CreateProject(string name)
 	m_img = new cImageFactory;
 
 	m_sounds.push_back(m_sound->CreateSound(name));
-
-	m_sounds.push_back(m_sound->CreateSound(name));
-	m_sounds.push_back(m_sound->CreateSound(name));
-
 	m_imgs.push_back(m_img->CreateImage(name));
 	cout << "프로젝트 세팅 완료\n";
 }
