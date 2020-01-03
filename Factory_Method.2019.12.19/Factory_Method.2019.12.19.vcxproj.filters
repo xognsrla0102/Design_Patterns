@@ -1,46 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="main">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="main\objects">
-      <UniqueIdentifier>{9ae71206-6304-44cc-b38d-51a675d030d5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="main\objects\sound">
-      <UniqueIdentifier>{999619e2-b34e-4ac6-9c87-b71fe17af34a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="main\objects\sound\유니티">
-      <UniqueIdentifier>{6db640b1-3e12-4206-87e1-73a52eb732ff}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="main\objects\sound\다렉">
-      <UniqueIdentifier>{aab4bde9-3106-43a4-9a2d-6bb0be735cc7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="main\objects\image">
-      <UniqueIdentifier>{4757ba76-114f-49c7-bdfd-7a44e5c58e4a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="main\objects\image\유니티">
-      <UniqueIdentifier>{d8ee9a43-86d3-4970-b916-8c61409f5588}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="main\objects\image\다렉">
-      <UniqueIdentifier>{0e0003bd-2cda-4667-852d-6b214c519500}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="main\factory">
-      <UniqueIdentifier>{20572714-2c92-41ec-9f75-ac397af5c411}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="main\project">
-      <UniqueIdentifier>{57a95ac0-640f-4bf0-80a8-4b0798feb277}</UniqueIdentifier>
-    </Filter>
     <Filter Include="util">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="main\factory\sound">
-      <UniqueIdentifier>{7250dec7-8d72-46c5-b4de-3ed75fcb72b8}</UniqueIdentifier>
+    <Filter Include="main">
+      <UniqueIdentifier>{b32d1303-4323-4516-9626-8d9428df42f6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main\factory\image">
-      <UniqueIdentifier>{bef077ad-d0ae-4c5c-99ab-c8550c48b49c}</UniqueIdentifier>
+    <Filter Include="main\Factory">
+      <UniqueIdentifier>{0efbaf81-ed92-4f5c-ae7d-b88782c0dbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Factory\Project">
+      <UniqueIdentifier>{8e053cf4-d5ef-43bd-afb0-2e7fe3edf6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Factory\Project\C">
+      <UniqueIdentifier>{9de30c03-3cdd-40c4-a5a7-1ffc880348bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Factory\Project\C++">
+      <UniqueIdentifier>{bc85cabf-1eb3-47bd-a9ac-1ba8610293ed}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -48,66 +26,24 @@
       <Filter>util</Filter>
     </ClInclude>
     <ClInclude Include="cProject.h">
-      <Filter>main\project</Filter>
+      <Filter>main\Factory\Project</Filter>
     </ClInclude>
-    <ClInclude Include="cSound.h">
-      <Filter>main\objects\sound</Filter>
-    </ClInclude>
-    <ClInclude Include="cImage.h">
-      <Filter>main\objects\image</Filter>
-    </ClInclude>
-    <ClInclude Include="cSoundFactory.h">
-      <Filter>main\factory\sound</Filter>
-    </ClInclude>
-    <ClInclude Include="cDXSound.h">
-      <Filter>main\objects\sound\다렉</Filter>
-    </ClInclude>
-    <ClInclude Include="cUNITYSound.h">
-      <Filter>main\objects\sound\유니티</Filter>
-    </ClInclude>
-    <ClInclude Include="cImageFactory.h">
-      <Filter>main\factory\image</Filter>
-    </ClInclude>
-    <ClInclude Include="cDXImage.h">
-      <Filter>main\objects\image\다렉</Filter>
-    </ClInclude>
-    <ClInclude Include="cUNITYImage.h">
-      <Filter>main\objects\image\유니티</Filter>
+    <ClInclude Include="cProjectFactory.h">
+      <Filter>main\Factory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
     <ClCompile Include="cProject.cpp">
-      <Filter>main\project</Filter>
+      <Filter>main\Factory\Project</Filter>
     </ClCompile>
-    <ClCompile Include="cSound.cpp">
-      <Filter>main\objects\sound</Filter>
-    </ClCompile>
-    <ClCompile Include="cImage.cpp">
-      <Filter>main\objects\image</Filter>
-    </ClCompile>
-    <ClCompile Include="cSoundFactory.cpp">
-      <Filter>main\factory\sound</Filter>
-    </ClCompile>
-    <ClCompile Include="cDXSound.cpp">
-      <Filter>main\objects\sound\다렉</Filter>
-    </ClCompile>
-    <ClCompile Include="cUNITYSound.cpp">
-      <Filter>main\objects\sound\유니티</Filter>
-    </ClCompile>
-    <ClCompile Include="cImageFactory.cpp">
-      <Filter>main\factory\image</Filter>
-    </ClCompile>
-    <ClCompile Include="cDXImage.cpp">
-      <Filter>main\objects\image\다렉</Filter>
-    </ClCompile>
-    <ClCompile Include="cUNITYImage.cpp">
-      <Filter>main\objects\image\유니티</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>util</Filter>
+    <ClCompile Include="cProjectFactory.cpp">
+      <Filter>main\Factory</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

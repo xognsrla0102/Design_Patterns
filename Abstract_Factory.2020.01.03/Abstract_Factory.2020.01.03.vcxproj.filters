@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="main\Factory">
+      <UniqueIdentifier>{90d3860e-8783-4f56-8266-e35c08a54710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Factory\Image">
+      <UniqueIdentifier>{6806d664-27fb-4214-91e4-f18b9528d1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Factory\Sound">
+      <UniqueIdentifier>{9c09068c-282d-499c-9bd4-1dfc0ca24ffb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="cFactory.cpp">
+      <Filter>main\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageFactory.cpp">
+      <Filter>main\Factory\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundFactory.cpp">
+      <Filter>main\Factory\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="cFactory.h">
+      <Filter>main\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageFactory.h">
+      <Filter>main\Factory\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundFactory.h">
+      <Filter>main\Factory\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
