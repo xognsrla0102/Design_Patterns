@@ -8,16 +8,16 @@
     <Filter Include="main">
       <UniqueIdentifier>{b32d1303-4323-4516-9626-8d9428df42f6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main\Factory">
+    <Filter Include="Factory">
       <UniqueIdentifier>{0efbaf81-ed92-4f5c-ae7d-b88782c0dbec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main\Factory\Project">
+    <Filter Include="Project">
       <UniqueIdentifier>{8e053cf4-d5ef-43bd-afb0-2e7fe3edf6b9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main\Factory\Project\C">
+    <Filter Include="Project\C">
       <UniqueIdentifier>{9de30c03-3cdd-40c4-a5a7-1ffc880348bf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main\Factory\Project\C++">
+    <Filter Include="Project\C++">
       <UniqueIdentifier>{bc85cabf-1eb3-47bd-a9ac-1ba8610293ed}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -26,10 +26,16 @@
       <Filter>util</Filter>
     </ClInclude>
     <ClInclude Include="cProject.h">
-      <Filter>main\Factory\Project</Filter>
+      <Filter>Project</Filter>
     </ClInclude>
     <ClInclude Include="cProjectFactory.h">
-      <Filter>main\Factory</Filter>
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="cCProject.h">
+      <Filter>Project\C</Filter>
+    </ClInclude>
+    <ClInclude Include="cCPlusProject.h">
+      <Filter>Project\C++</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -40,10 +46,16 @@
       <Filter>main</Filter>
     </ClCompile>
     <ClCompile Include="cProject.cpp">
-      <Filter>main\Factory\Project</Filter>
+      <Filter>Project</Filter>
     </ClCompile>
     <ClCompile Include="cProjectFactory.cpp">
-      <Filter>main\Factory</Filter>
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="cCProject.cpp">
+      <Filter>Project\C</Filter>
+    </ClCompile>
+    <ClCompile Include="cCPlusProject.cpp">
+      <Filter>Project\C++</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

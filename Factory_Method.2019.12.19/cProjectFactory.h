@@ -7,6 +7,6 @@ class cProjectFactory
 private:
 	cProject* proj = nullptr;
 public:
-	void CreateProject(string lang);
+	cProject* CreateProject(string lang);
 };
 

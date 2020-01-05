@@ -9,13 +9,13 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="main\Factory">
+    <Filter Include="Factory">
       <UniqueIdentifier>{90d3860e-8783-4f56-8266-e35c08a54710}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main\Factory\Image">
+    <Filter Include="Factory\Image">
       <UniqueIdentifier>{6806d664-27fb-4214-91e4-f18b9528d1fd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main\Factory\Sound">
+    <Filter Include="Factory\Sound">
       <UniqueIdentifier>{9c09068c-282d-499c-9bd4-1dfc0ca24ffb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -24,16 +24,16 @@
       <Filter>util</Filter>
     </ClCompile>
     <ClCompile Include="cFactory.cpp">
-      <Filter>main\Factory</Filter>
+      <Filter>Factory</Filter>
     </ClCompile>
     <ClCompile Include="cImageFactory.cpp">
-      <Filter>main\Factory\Image</Filter>
+      <Filter>Factory\Image</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
     <ClCompile Include="cSoundFactory.cpp">
-      <Filter>main\Factory\Sound</Filter>
+      <Filter>Factory\Sound</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -41,13 +41,13 @@
       <Filter>util</Filter>
     </ClInclude>
     <ClInclude Include="cFactory.h">
-      <Filter>main\Factory</Filter>
+      <Filter>Factory</Filter>
     </ClInclude>
     <ClInclude Include="cImageFactory.h">
-      <Filter>main\Factory\Image</Filter>
+      <Filter>Factory\Image</Filter>
     </ClInclude>
     <ClInclude Include="cSoundFactory.h">
-      <Filter>main\Factory\Sound</Filter>
+      <Filter>Factory\Sound</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,6 +2,6 @@
 class cProject abstract
 {
 public:
-	virtual void CreateProject(string lang);
+	virtual void Init() = 0;
 };
 

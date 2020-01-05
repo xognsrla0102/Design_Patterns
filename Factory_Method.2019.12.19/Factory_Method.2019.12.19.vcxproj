@@ -151,6 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cCPlusProject.cpp" />
+    <ClCompile Include="cCProject.cpp" />
     <ClCompile Include="cProject.cpp" />
     <ClCompile Include="cProjectFactory.cpp" />
     <ClCompile Include="main.cpp" />
@@ -159,6 +161,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cCPlusProject.h" />
+    <ClInclude Include="cCProject.h" />
     <ClInclude Include="cProject.h" />
     <ClInclude Include="cProjectFactory.h" />
     <ClInclude Include="pch.h" />
