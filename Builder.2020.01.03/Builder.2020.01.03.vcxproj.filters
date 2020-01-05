@@ -9,6 +9,27 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Builder">
+      <UniqueIdentifier>{d76b2139-eab9-4be4-9129-eaabb77a0e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder\Keyboard">
+      <UniqueIdentifier>{c9a61708-e820-48e0-b419-5cee560b9fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder\Mouse">
+      <UniqueIdentifier>{e001c6aa-3461-4b67-abca-54a3f7365eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputDeviceManager">
+      <UniqueIdentifier>{617fdccd-bc55-4781-b979-30fac0702fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputDevice">
+      <UniqueIdentifier>{b597691c-3d47-4338-83a4-e37264c34af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputDevice\Keyboard">
+      <UniqueIdentifier>{565bfe12-390f-4fbe-ae45-8b8410b54679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputDevice\Mouse">
+      <UniqueIdentifier>{19670f0a-9bd6-45cc-a79d-870f9ecc749b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -17,10 +38,52 @@
     <ClCompile Include="pch.cpp">
       <Filter>util</Filter>
     </ClCompile>
+    <ClCompile Include="cBuilder.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyboard.cpp">
+      <Filter>InputDevice\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputDeviceManager.cpp">
+      <Filter>InputDeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputDevice.cpp">
+      <Filter>InputDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="cMouse.cpp">
+      <Filter>InputDevice\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyboardBuilder.cpp">
+      <Filter>Builder\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="cMouseBuilder.cpp">
+      <Filter>Builder\Mouse</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="cBuilder.h">
+      <Filter>Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyboard.h">
+      <Filter>InputDevice\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputDeviceManager.h">
+      <Filter>InputDeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputDevice.h">
+      <Filter>InputDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="cMouse.h">
+      <Filter>InputDevice\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyboardBuilder.h">
+      <Filter>Builder\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="cMouseBuilder.h">
+      <Filter>Builder\Mouse</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

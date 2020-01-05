@@ -125,6 +125,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cBuilder.cpp" />
+    <ClCompile Include="cInputDevice.cpp" />
+    <ClCompile Include="cInputDeviceManager.cpp" />
+    <ClCompile Include="cKeyboard.cpp" />
+    <ClCompile Include="cKeyboardBuilder.cpp" />
+    <ClCompile Include="cMouse.cpp" />
+    <ClCompile Include="cMouseBuilder.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -132,6 +139,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cBuilder.h" />
+    <ClInclude Include="cInputDevice.h" />
+    <ClInclude Include="cInputDeviceManager.h" />
+    <ClInclude Include="cKeyboard.h" />
+    <ClInclude Include="cKeyboardBuilder.h" />
+    <ClInclude Include="cMouse.h" />
+    <ClInclude Include="cMouseBuilder.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
