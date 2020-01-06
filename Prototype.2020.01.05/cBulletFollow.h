@@ -1,7 +1,6 @@
 #pragma once
 #include "cBullet.h"
-
-class cBulletCircle : public cBullet
+class cBulletFollow : public cBullet
 {
 public:
 	virtual cBullet* clone() override;

@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="cBullet.cpp" />
     <ClCompile Include="cBulletcircle.cpp" />
+    <ClCompile Include="cBulletFollow.cpp" />
+    <ClCompile Include="cPrototypeFactory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -140,6 +142,8 @@
   <ItemGroup>
     <ClInclude Include="cBullet.h" />
     <ClInclude Include="cBulletcircle.h" />
+    <ClInclude Include="cBulletFollow.h" />
+    <ClInclude Include="cPrototypeFactory.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

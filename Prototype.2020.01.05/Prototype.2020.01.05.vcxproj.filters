@@ -15,6 +15,12 @@
     <Filter Include="Bullet\Circle">
       <UniqueIdentifier>{cd722588-4387-4748-a3e2-84027cc65851}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PrototypeFactory">
+      <UniqueIdentifier>{1702fc22-e450-429c-a785-a89484f3d1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullet\Follow">
+      <UniqueIdentifier>{84bb4a59-117a-4094-841f-5df97f392e77}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -25,6 +31,12 @@
     </ClInclude>
     <ClInclude Include="cBulletcircle.h">
       <Filter>Bullet\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="cPrototypeFactory.h">
+      <Filter>PrototypeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletFollow.h">
+      <Filter>Bullet\Follow</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -39,6 +51,12 @@
     </ClCompile>
     <ClCompile Include="cBulletcircle.cpp">
       <Filter>Bullet\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="cPrototypeFactory.cpp">
+      <Filter>PrototypeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletFollow.cpp">
+      <Filter>Bullet\Follow</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
