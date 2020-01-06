@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{e36c5d7a-efff-47bb-9e2c-27107d5c5913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{88cd291e-a9a6-43f8-99a1-28cffdda79f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextView">
+      <UniqueIdentifier>{cc6d16fb-f4ea-409e-862d-be45c87e9b2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="cText.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="cShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextView.cpp">
+      <Filter>TextView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="cText.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextView.h">
+      <Filter>TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="cShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
