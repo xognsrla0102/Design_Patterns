@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{5204a99b-a037-4e86-8e68-4b0a0a476223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\ana">
+      <UniqueIdentifier>{c983acac-76a0-4905-b7d1-be3d7f1e7dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\mercy">
+      <UniqueIdentifier>{39a1f26e-29fd-4603-9b6d-22636c55e30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\mccree">
+      <UniqueIdentifier>{438758dd-bcda-4bf6-a1f9-e57fd9872a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\redTeam">
+      <UniqueIdentifier>{a1854f0e-94f5-4abd-a1ee-32d0a3c2cd32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="cCharacter.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="cMccree.h">
+      <Filter>character\mccree</Filter>
+    </ClInclude>
+    <ClInclude Include="cMercy.h">
+      <Filter>character\mercy</Filter>
+    </ClInclude>
+    <ClInclude Include="cAna.h">
+      <Filter>character\ana</Filter>
+    </ClInclude>
+    <ClInclude Include="cRedTeam.h">
+      <Filter>character\redTeam</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="cCharacter.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="cMccree.cpp">
+      <Filter>character\mccree</Filter>
+    </ClCompile>
+    <ClCompile Include="cMercy.cpp">
+      <Filter>character\mercy</Filter>
+    </ClCompile>
+    <ClCompile Include="cAna.cpp">
+      <Filter>character\ana</Filter>
+    </ClCompile>
+    <ClCompile Include="cRedTeam.cpp">
+      <Filter>character\redTeam</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

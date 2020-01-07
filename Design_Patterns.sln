@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adapter.2020.01.06", "Adapt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge.2020.01.07", "Bridge.2020.01.07\Bridge.2020.01.07.vcxproj", "{9D4E0F51-29F5-4D93-919E-287B527F29C7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite.2020.01.07", "Composite.2020.01.07\Composite.2020.01.07.vcxproj", "{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Release|x64.Build.0 = Release|x64
 		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Release|x86.ActiveCfg = Release|Win32
 		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Release|x86.Build.0 = Release|Win32
+		{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}.Debug|x64.ActiveCfg = Debug|x64
+		{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}.Debug|x64.Build.0 = Debug|x64
+		{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}.Debug|x86.Build.0 = Debug|Win32
+		{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}.Release|x64.ActiveCfg = Release|x64
+		{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}.Release|x64.Build.0 = Release|x64
+		{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}.Release|x86.ActiveCfg = Release|Win32
+		{F82F9D70-4187-4158-A26D-DCDB5CD72B2E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
