@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{fa799bd7-b839-4676-bf1f-9ac455a71696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="todo">
+      <UniqueIdentifier>{ad02f930-aedc-454b-8c29-f733331240d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time\morning">
+      <UniqueIdentifier>{20fe8dd0-8b88-4cb1-ac36-65966ff37926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time\afternoon">
+      <UniqueIdentifier>{6eb84c3a-5144-4044-9535-0730de85d96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time\evening">
+      <UniqueIdentifier>{62957bea-b523-4650-aefb-809b5803db6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="todo\morning">
+      <UniqueIdentifier>{22a3d021-0989-4d29-b7e4-6b1e1bd3ecd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="todo\afternoon">
+      <UniqueIdentifier>{e2661ea0-62aa-4a9c-8afc-76b9852dd2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="todo\evening">
+      <UniqueIdentifier>{13b3c508-013e-49fe-9edf-1cb12954220f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="cTodo.h">
+      <Filter>todo</Filter>
+    </ClInclude>
+    <ClInclude Include="cTime_M.h">
+      <Filter>time\morning</Filter>
+    </ClInclude>
+    <ClInclude Include="cTodo_A.h">
+      <Filter>todo\afternoon</Filter>
+    </ClInclude>
+    <ClInclude Include="cTodo_M.h">
+      <Filter>todo\morning</Filter>
+    </ClInclude>
+    <ClInclude Include="cTime.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="cTime_E.h">
+      <Filter>time\evening</Filter>
+    </ClInclude>
+    <ClInclude Include="cTodo_E.h">
+      <Filter>todo\evening</Filter>
+    </ClInclude>
+    <ClInclude Include="cTime_A.h">
+      <Filter>time\afternoon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="cTodo.cpp">
+      <Filter>todo</Filter>
+    </ClCompile>
+    <ClCompile Include="cTime_M.cpp">
+      <Filter>time\morning</Filter>
+    </ClCompile>
+    <ClCompile Include="cTodo_M.cpp">
+      <Filter>todo\morning</Filter>
+    </ClCompile>
+    <ClCompile Include="cTodo_A.cpp">
+      <Filter>todo\afternoon</Filter>
+    </ClCompile>
+    <ClCompile Include="cTime.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="cTime_E.cpp">
+      <Filter>time\evening</Filter>
+    </ClCompile>
+    <ClCompile Include="cTodo_E.cpp">
+      <Filter>todo\evening</Filter>
+    </ClCompile>
+    <ClCompile Include="cTime_A.cpp">
+      <Filter>time\afternoon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

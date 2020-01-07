@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton.2020.01.06", "Sin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adapter.2020.01.06", "Adapter.2020.01.06\Adapter.2020.01.06.vcxproj", "{4D9BA2D5-EDC1-4749-B6DF-2A1B3439CD02}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge.2020.01.07", "Bridge.2020.01.07\Bridge.2020.01.07.vcxproj", "{9D4E0F51-29F5-4D93-919E-287B527F29C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{4D9BA2D5-EDC1-4749-B6DF-2A1B3439CD02}.Release|x64.Build.0 = Release|x64
 		{4D9BA2D5-EDC1-4749-B6DF-2A1B3439CD02}.Release|x86.ActiveCfg = Release|Win32
 		{4D9BA2D5-EDC1-4749-B6DF-2A1B3439CD02}.Release|x86.Build.0 = Release|Win32
+		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Debug|x64.ActiveCfg = Debug|x64
+		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Debug|x64.Build.0 = Debug|x64
+		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Debug|x86.Build.0 = Debug|Win32
+		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Release|x64.ActiveCfg = Release|x64
+		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Release|x64.Build.0 = Release|x64
+		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Release|x86.ActiveCfg = Release|Win32
+		{9D4E0F51-29F5-4D93-919E-287B527F29C7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
