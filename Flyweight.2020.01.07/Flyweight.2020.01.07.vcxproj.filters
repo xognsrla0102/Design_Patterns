@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="singleton">
+      <UniqueIdentifier>{21d7ee5c-7ff7-408d-8253-4b6882effb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item">
+      <UniqueIdentifier>{b2cdeb4f-6b96-4269-8c38-449a86de91d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\redPotion">
+      <UniqueIdentifier>{091bf98e-01a3-4e3c-aae2-1dfa039963a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\bluePotion">
+      <UniqueIdentifier>{d8c61aca-d79e-4e04-b839-a9ee71313268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="itemFactory">
+      <UniqueIdentifier>{70af4747-823e-45c4-b13e-abaadf4da145}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingleton.h">
+      <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="cRedPotion.h">
+      <Filter>item\redPotion</Filter>
+    </ClInclude>
+    <ClInclude Include="cBluePotion.h">
+      <Filter>item\bluePotion</Filter>
+    </ClInclude>
+    <ClInclude Include="cItemFactory.h">
+      <Filter>itemFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="cSingleton.cpp">
+      <Filter>singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem.cpp">
+      <Filter>item</Filter>
+    </ClCompile>
+    <ClCompile Include="cRedPotion.cpp">
+      <Filter>item\redPotion</Filter>
+    </ClCompile>
+    <ClCompile Include="cBluePotion.cpp">
+      <Filter>item\bluePotion</Filter>
+    </ClCompile>
+    <ClCompile Include="cItemFactory.cpp">
+      <Filter>itemFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
